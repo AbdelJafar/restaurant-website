@@ -1,0 +1,49 @@
+/* styling the content of the webpage */
+.heroine {
+    /* border: var(--texting-color); */
+    height: 50vh;
+    position: relative;
+    margin-bottom: 2rem;
+    /* background: url('/assets/food.jpg') center/cover no-repeat; */
+    border-radius: var(--borderRadius);
+  }
+
+  .hero-container {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    backface-visibility: hidden;
+    border-radius: var(--borderRadius);
+  }
+  .hero-text {
+    /* border: 2px solid yellow; */
+    color: white;
+    text-align: center;
+    display: inline-block;
+
+  }
+  .hero-text p{
+      /* border: 2px solid red; */
+      font-size: 28px;
+      text-transform: none;
+      font-weight: bold;
+      
+  }
+  #arrow{
+      transform: rotate(90deg);
+      width: 8vh;
+      background-color: wheat;
+      margin-top: 3vh;
+
+  }
+  #look{
+      margin-top: 20vh;
+      /* border: var(--texting-color); */
+
+  }

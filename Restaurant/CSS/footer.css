@@ -1,0 +1,69 @@
+/* styling the footer */
+.footer{
+    font-weight: 400;
+    padding: 40px 0;
+    background-color: var(--theme-color);
+}
+.footer .social{
+    /* border: var(--texting-color); */
+    text-align: center;
+    padding-bottom: 25px;
+}
+.footer .social a{ 
+    font-size: 24px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: 1;
+    color: var(--theme-color);
+}
+.footer ul{
+    margin-top: 16px;
+}
+.list{
+    /* border:2px solid yellow; */
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    transform: translateX(50%);
+    display: flex;
+}
+ul{
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    
+}
+ul li a{
+    color: white;
+}
+ul li a:hover{
+    color: rgb(141, 190, 247);
+    opacity: .5;
+}
+.copywright{
+    /* border: 2px solid blue; */
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.copywright-2{
+    text-align: center;
+    margin-top: 20px;
+    color: wheat;
+}
+.copywright-2 a:hover{
+    color: white;
+    opacity: .2;
+}
+/* end of the footer */

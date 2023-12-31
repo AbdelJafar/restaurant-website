@@ -1,0 +1,27 @@
+/* styling the food items */
+.food-items{
+    /* border: 2px solid yellow; */
+    display: inline-flex;
+    text-align: center;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    margin-left: 30px;
+    gap: 2em 1rem;
+    
+}
+.recipes img{
+    width: 20rem;
+    border-radius: 20% ;
+}
+#greek{
+    /* border: 2px solid brown; */
+    width: 19rem;
+    height: 13rem;
+}
+#foods{
+    /* border: 2px solid yellow; */
+    font-size: 20px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

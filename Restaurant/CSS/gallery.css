@@ -1,0 +1,64 @@
+/* styling yje gallery page */
+.section-3{
+    /* border: 2px solid blue; */
+    background-color: rgba(143, 143, 143, 0.568);
+    padding: 5rem 0;
+    background-size: 50vmax;
+}
+
+.food-img{
+    width: 19vw;
+    height: 15vw;
+    /* height: 40vh; */
+    object-fit: cover;
+    border-radius: 10%;
+}
+.gallery{
+    /* border: 2px solid yellow; */
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    text-align: center;
+    padding-top: 5rem 0 ;
+
+}
+
+.gallery a{
+    transition: all .2s ease-in-out;
+
+}
+.gallery a:hover{
+    transform: scale(1.1);
+}
+   
+
+
+.section-heading{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid blue;
+    
+}
+.gallery h3,p{
+    text-align: center;
+}
+.food-name{
+    /* position: absolute;s */
+    /* font-size: 2rem; */
+    /* top: 3ren;
+    left: 3rem; */
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: cursive;
+    text-transform: uppercase;
+    /* letter-spacing: 1rem; */
+    /* visibility: hidden;s */
+}
+
+
+
